@@ -1,0 +1,165 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #E20000;
+}
+
+p {
+    color: #6A6A6A;
+}
+/* Aca comienzo proyectos */
+#proyectos {
+    background-image: url(../images/fondo-proyectos.png);
+    background-size: 100%;
+}
+#proyectos main {
+    height: 82vh;
+}
+
+/* Aca termina proyectos */
+
+#contacto {
+    background-image: url(../images/fondo-contacto.png);
+    background-size: 100%;
+}
+
+#contacto main {
+    height: 82vh;
+}
+
+
+#contacto textarea {
+    height: 200px;
+    resize: none;
+}
+
+#contacto input, #contacto textarea {
+    border-radius: 15px;
+    border: 0px;
+}
+
+nav .nav-link {
+    color: #282828;
+    padding: 10px 0;
+}
+
+nav .active {
+    border: 1px solid #E20000;
+    font-size: 15px;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+
+.navbar {
+    padding: 30px 0;
+}
+
+.btn {
+    background-color: white;
+    color: #370A6D;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 8px 40px;
+    border-radius: 24px;
+}
+
+.btn:hover {
+    background-color: #370A6D;
+    color: white;
+}
+
+
+.btn-pdf {
+    background-color: #E20000;
+    font-weight: 300;
+    padding: 4px 3px;
+    color: white;
+    border-radius: 30px;
+    padding: 5px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-pdf:hover{
+    text-decoration: underline;
+}
+
+footer, footer a {
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+footer .fa-github {
+    font-size: 28px;
+    color: white;
+}
+
+footer .fa-linkedin-in {
+    background-color: white;
+    color: #ff4a49;
+    font-size: 18px;
+    height: 29px;
+    width: 28px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+}
+
+footer .fa-whatsapp {
+    background-color: #370A6D;
+    font-size: 30px;
+    padding: 9px 31px 7px 25px;
+    border-radius: 10px 10px 0 0;
+    height: 65px;
+    width: 78px;
+}
+
+
+#proyectos footer, #proyectos footer a {
+    color: #E20000;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+#proyectos footer .fa-github {
+    font-size: 28px;
+    color:  #E20000;
+}
+
+#proyectos footer .fa-linkedin-in {
+    background-color:  #E20000;
+    color: white;
+    font-size: 18px;
+    height: 29px;
+    width: 28px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+}
+
+#proyectos footer .fa-whatsapp {
+    background-color: #370A6D;
+    color:white;
+    font-size: 30px;
+    padding: 9px 31px 7px 25px;
+    border-radius: 10px 10px 0 0;
+    height: 65px;
+    width: 78px;
+}
+
+#proyectos .col-sm {
+    background-color: #eeeeee;
+    width: 300px;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
