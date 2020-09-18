@@ -84,41 +84,20 @@ h6 {
     border: 0px;
 }
 
+/* Navegador */
 
-nav .nav-link {
+nav .nav-link{
     color: #282828;
-    padding: 10px 0;
 }
-
-nav .active {
+nav .active{
     border: 1px solid #E20000;
     font-size: 15px;
-    padding: 5px 20px;
     border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: 100;
 }
 
-#btn-menu {
-    display: none;
-}
-
-.navbar {
-    padding: 30px 0;
-}
-
-
-.navbar-toggler {
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 1px solid transparent;
-    
-}
-
-.navbar-toggler-icon {
-    padding: 7px;
-    width: 45px;
-    height: 37px;
-}
+/* Fin del navegador */
 
 .btn {
     background-color: white;
