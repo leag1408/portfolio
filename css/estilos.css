@@ -4,25 +4,69 @@ body{
 
 h1 {
     color: #E20000;
+    font-size: 800;
 }
 
 p {
     color: #6A6A6A;
-}
-/* Aca comienzo proyectos */
-#proyectos {
-    background-image: url(../images/fondo-proyectos.png);
-    background-size: 100%;
-}
-#proyectos main {
-    height: 82vh;
+    font-size: 16px;
 }
 
-/* Aca termina proyectos */
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 14px;
+    color: #282828;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+#inicio {
+    background-repeat: no-repeat;
+    background-image: url(../images/fondo-inicio.png);
+    background-size: 100%;
+}
+
+#inicio .texto {
+    margin-top: 600px; 
+}
+
+#inicio p {
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+
+#inicio main {
+    height: 77vh;
+}
+
+
 
 #contacto {
     background-image: url(../images/fondo-contacto.png);
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #contacto main {
@@ -40,6 +84,7 @@ p {
     border: 0px;
 }
 
+
 nav .nav-link {
     color: #282828;
     padding: 10px 0;
@@ -52,9 +97,27 @@ nav .active {
     border-radius: 20px;
 }
 
+#btn-menu {
+    display: none;
+}
 
 .navbar {
     padding: 30px 0;
+}
+
+
+.navbar-toggler {
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    
+}
+
+.navbar-toggler-icon {
+    padding: 7px;
+    width: 45px;
+    height: 37px;
 }
 
 .btn {
@@ -72,18 +135,18 @@ nav .active {
 }
 
 
-.btn-pdf {
+.btn-rojo {
     background-color: #E20000;
     font-weight: 300;
     padding: 4px 3px;
     color: white;
     border-radius: 30px;
-    padding: 5px 30px;
+    padding: 5px 20px;
     border: none;
     cursor: pointer;
 }
 
-.btn-pdf:hover{
+.btn-rojo:hover{
     text-decoration: underline;
 }
 
@@ -93,12 +156,12 @@ footer, footer a {
     font-size: 16px;
 }
 
-footer .fa-github {
+#inicio footer .fa-github {
     font-size: 28px;
     color: white;
 }
 
-footer .fa-linkedin-in {
+#inicio footer .fa-linkedin-in {
     background-color: white;
     color: #ff4a49;
     font-size: 18px;
@@ -116,6 +179,14 @@ footer .fa-whatsapp {
     border-radius: 10px 10px 0 0;
     height: 65px;
     width: 78px;
+}
+
+
+/* Aca comienzo proyectos */
+#proyectos {
+    background-image: url(../images/fondo-proyectos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 
@@ -151,15 +222,247 @@ footer .fa-whatsapp {
     width: 78px;
 }
 
-#proyectos .col-sm {
-    background-color: #eeeeee;
-    width: 300px;
-    display: inline-block;
-    padding: 15px;
-    border-radius: 8px;
-    margin: 10px;
-    text-align: center;
+ .color-gradiente {
+    background: rgba(135,0,0,1);
+background: -moz-linear-gradient(left, rgba(135,0,0,1) 0%, rgba(255,0,0,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(135,0,0,1)), color-stop(100%, rgba(255,0,0,1)));
+background: -webkit-linear-gradient(left, rgba(135,0,0,1) 0%, rgba(255,0,0,1) 100%);
+background: -o-linear-gradient(left, rgba(135,0,0,1) 0%, rgba(255,0,0,1) 100%);
+background: -ms-linear-gradient(left, rgba(135,0,0,1) 0%, rgba(255,0,0,1) 100%);
+background: linear-gradient(to right, rgba(135,0,0,1) 0%, rgba(255,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#870000', endColorstr='#ff0000', GradientType=1 );
 }
 
+#proyectos h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+#proyectos p {
+    font-size: 14px;
+    height: 105px;
+}
+
+#proyectos img {
+    height: 177px;
+}
+
+#proyectos .link-rojo {
+    color: #E20000;
+    font-size: 15px;
+}
+
+
+/* Aca termina proyectos */
+
+#sobre-mi {
+    background-repeat: no-repeat;
+    background-image: url(../images/fondo-proyectos.png);
+    background-size: 100%;
+}
+
+
+.img-circle {
+   
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+#sobre-mi .card {
+    height: 182px;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+
+#idiomas .card-violeta {
+    background-color: #370A6D;
+    border-radius: 20px;
+}
+
+.fa-comment-alt {
+    color: white;
+    font-size: 80px;
+}
+
+.fa-star {
+    color: white;
+    font-size: 80px;
+}
+
+.fondo-gris {
+    background-color: #EDEDED;
+}
+
+.caja {
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.fa-suitcase {
+    color: #370A6D;
+    font-size: 70px;
+}
+
+.texto-experiencia {
+    color: #370A6D;
+}
+
+p .datos {
+    font-size: 12px;
+}
+
+#sobre-mi  span {
+    font-size: 12px;
+}
+
+.ver-empresa {
+    background-color: #370A6D;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.ver-empresa-naranja {
+    background-color: #E20000;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#sobre-mi .text-right {
+    text-align: right !important;
+}
+
+.fa-graduation-cap {
+    color: #E20000;
+    font-size: 70px;
+}
+
+.texto-estudios {
+    color: #E20000;
+}
+
+#estudios {
+    background-color: #EDEDED;
+}
+
+#sobre-mi .nombre {
+    color: #6A6A6A;
+}
+
+#sobre-mi .nombre-violeta {
+    color:  #370A6D;
+}
+
+#sobre-mi .nombre-naranja {
+    color: #E20000;
+}
+
+#sobre-mi .boton-naranja { 
+    background-color: #E20000;
+    font-weight: 500;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer .fondo-gris {
+    background-color: #EDEDED;
+}
+
+#sobre-mi footer a {
+    color: #E20000;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#sobre-mi main a .fa-github, footer .fa-github {
+    font-size: 28px;
+    color:  #E20000;
+}
+
+#sobre-mi main a .fa-linkedin-in, footer .fa-linkedin-in {
+    background-color:  #E20000;
+    color: white;
+    font-size: 18px;
+    height: 29px;
+    width: 28px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+}
+
+#sobre-mi footer .fa-whatsapp {
+    background-color: #370A6D;
+    color:white;
+    font-size: 30px;
+    padding: 9px 31px 7px 25px;
+    border-radius: 10px 10px 0 0;
+    height: 65px;
+    width: 78px;
+}
+
+@media (max-width: 700px) {/* Para mobile */
+    header label {
+        display: block;
+    }
+    .navbar-collapse {
+        position: absolute;
+        width: 100%;
+        margin-top: -100%;
+        transition: all 500ms ease;
+    }
+
+    ul .navbar-nav {
+        flex-direction: column;
+    }
+
+    #inicio {
+        background-size: 100% !important;
+        background-repeat: no-repeat !important;
+        background-position-y: 0px !important;
+        background-position-x: 0 !important;
+    }
+}
+@media (max-width: 768px) {/* Para tablet */
+    #inicio {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: -100px;
+        background-position-x: 0;
+    }
+}
+@media (max-width: 1200px) {/* Para monitores mas grandes */
+    #inicio {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: -180px;
+        background-position-x: 0;
+    }
+}
 
 
