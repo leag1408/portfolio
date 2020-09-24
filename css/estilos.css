@@ -1,3 +1,28 @@
+/* Navegador */
+
+nav .nav-link{
+    color: #282828;
+}
+nav .active{
+    border: 1px solid #E20000;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: 100;
+}
+.navbar-toggler-icon {
+    border: 1px solid #797676 !important;
+    padding: 7px;
+    width: 45px;
+    height: 37px;
+    border-radius: 3px;
+}
+
+
+/* Fin del navegador */
+
+
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -40,9 +65,10 @@ h6 {
 }
 
 #inicio {
-    background-repeat: no-repeat;
-    background-image: url(../images/fondo-inicio.png);
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../images/fondo-inicio.png);  
 }
 
 #inicio .texto {
@@ -65,8 +91,9 @@ h6 {
 
 #contacto {
     background-image: url(../images/fondo-contacto.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #contacto main {
@@ -84,20 +111,6 @@ h6 {
     border: 0px;
 }
 
-/* Navegador */
-
-nav .nav-link{
-    color: #282828;
-}
-nav .active{
-    border: 1px solid #E20000;
-    font-size: 15px;
-    border-radius: 20px;
-    padding: 5px 20px;
-    font-weight: 100;
-}
-
-/* Fin del navegador */
 
 .btn {
     background-color: white;
@@ -304,7 +317,7 @@ p .datos {
     font-size: 12px;
 }
 
-#sobre-mi  span {
+#sobre-mi  span .texto {
     font-size: 12px;
 }
 
@@ -406,10 +419,7 @@ footer .fondo-gris {
 }
 
 @media (max-width: 700px) {/* Para mobile */
-    header label {
-        display: block;
-    }
-
+    
     #inicio {
         background-size: 100% !important;
         background-repeat: no-repeat !important;

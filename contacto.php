@@ -1,3 +1,6 @@
+<?php
+$pg = "contacto";
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -21,30 +24,7 @@
     <header>
         <header>
             <div class="container">
-                <nav class="navbar navbar-expand-md px-0">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item pr-5">
-                                <a class="nav-link" href="index.php">Inicio</a>
-                            </li>
-                            <li class="nav-item pr-5">
-                                <a class="nav-link" href="sobre-mi.php">Sobre mí</a>
-                            </li>
-                            <li class="nav-item pr-5">
-                                <a class="nav-link" href="proyectos.php">Proyectos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="contacto.php">Contacto</a>
-                            </li>
-                        </ul>
-                        <div class="form-inline my-2 my-lg-0">
-                            <a href="" class="btn btn-rojo">Descargar mi CV <i class="fas fa-download"></i></a>
-                        </div>
-                    </div>
-                </nav>
+                <?php include_once("menu.php"); ?>
             </div>
         </header>
         <main>
@@ -83,7 +63,7 @@
 
         <footer>
             <div class="container">
-                <div class="row">
+                <div class="row row mt-5">
                     <div class="col-3">
                         <a href="https://github.com/" target="_blank" title="Github"><i class="fab fa-github mr-1"></i></a>
                         <a href="https://www.linkedin.com/in/leagimenez44/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>

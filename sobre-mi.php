@@ -1,3 +1,6 @@
+<?php
+$pg = "sobre-mi";
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -20,31 +23,7 @@
 <body id="sobre-mi">
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-md px-0">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item pr-5">
-                            <a class="nav-link" href="index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item pr-5">
-                            <a class="nav-link active" href="sobre-mi.php">Sobre mi</a>
-                        </li>
-                        <li class="nav-item pr-5">
-                            <a class="nav-link" href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item pr-5">
-                            <a class="nav-link" href="contacto.php">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="form-inline my-2 my-lg-0">
-                        <a href="" class="btn btn-rojo">DESCARGÁ MI CV <i class="fas fa-download"></i></a>
-                    </div>
-
-                </div>
-            </nav>
+            <?php include_once("menu.php"); ?>
         </div>
     </header>
 
@@ -187,12 +166,12 @@
         <section id="idiomas" class="fondo-gris py-5">
             <div class="container">
                 <div class="row my-5">
-                    <div class="col-12 col-sm-6">
+                    <div class="col-12 col-sm-6 pb-5">
                         <div class="row shadow caja">
                             <div class="px-5 py-5 card-violeta text-center">
                                 <i class="fas fa-comment-alt "></i>
                             </div>
-                            <div class="col-sm-8">
+                            <div class="col-6 col-sm-8">
                                 <h4 class="mt-5 mb-2 pl-4">IDIOMAS</h4>
                                 <h5 class="datos pl-4">INGLES - Intermediate B2<br>
                                     ESPAÑOL - Nativo<br>
@@ -200,12 +179,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6">
+                    <div class="col-12 col-sm-6 pb-5">
                         <div class="row shadow caja">
                             <div class="px-5 py-5 card-violeta text-center">
                                 <i class="fas fa-star"></i>
                             </div>
-                            <div class="col-sm-7 ">
+                            <div class=" col-6 col-sm-7 ">
                                 <h4 class="mt-5 mb-2 pl-4">HOBBIES</h4>
                                 <h5 class="datos pl-4">CROSSFIT<br>
                                     Libros de ciencia ficción</h5>
@@ -228,31 +207,16 @@
                 <div class="row my-5">
                     <div class="col-12 col-sm-6">
                         <div class="row shadow caja">
-                            <div class="px-5 pb-5 pt-3 text-center">
+                            <div class="col-6 px-5 pb-5 pt-3 text-center">
                                 <img src="images/sobre-mi/circulo-logo-09.png" alt="logo-empresa" title="logo-empresa" class="img-fluid">
                             </div>
-                            <div class="col-sm-8">
+                            <div class="col-6 col-sm-8">
                                 <h4 class="mt-4 nombre">Nombre del cargo</h4>
                                 <h4 class="pb-2 nombre-violeta">Nombre de la empresa</h4>
                                 <h6 class="pb-2">FEB 2016 - PRESENTE</h6>
-                                <li><span>ipsum dolor sit amet, consectetuer elit.</span></li>
-                                <li><span>Sed diam nonummy nibh euismod ut laoreet.</span></li>
-                                <li><span>Dolore magna aliquam erat volutpat.</span></li>
-                                <div class="text-right my-3 px-2">
-                                    <a href="" class="ver-empresa">VER EMPRESA</a>
-                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <div class="row shadow caja">
-                            <div class="px-5 pb-5 pt-3 text-center">
-                                <img src="images/sobre-mi/circulo-logo-09.png" alt="logo-empresa" title="logo-empresa" class="img-fluid">
-                            </div>
-                            <div class="col-sm-8">
-                                <h4 class="mt-4 nombre">Nombre del cargo</h4>
-                                <h4 class="pb-2 nombre-violeta">Nombre de la empresa</h4>
-                                <h6 class="pb-2">FEB 2016 - PRESENTE</h6>
+                            <div class="row">
+
                                 <li><span>ipsum dolor sit amet, consectetuer elit.</span></li>
                                 <li><span>Sed diam nonummy nibh euismod ut laoreet.</span></li>
                                 <li><span>Dolore magna aliquam erat volutpat.</span></li>
@@ -263,6 +227,25 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-12 col-sm-6">
+                    <div class="row shadow caja">
+                        <div class="px-5 pb-5 pt-3 text-center">
+                            <img src="images/sobre-mi/circulo-logo-09.png" alt="logo-empresa" title="logo-empresa" class="img-fluid">
+                        </div>
+                        <div class="col-sm-8">
+                            <h4 class="mt-4 nombre">Nombre del cargo</h4>
+                            <h4 class="pb-2 nombre-violeta">Nombre de la empresa</h4>
+                            <h6 class="pb-2">FEB 2016 - PRESENTE</h6>
+                            <li><span>ipsum dolor sit amet, consectetuer elit.</span></li>
+                            <li><span>Sed diam nonummy nibh euismod ut laoreet.</span></li>
+                            <li><span>Dolore magna aliquam erat volutpat.</span></li>
+                            <div class="text-right my-3 px-2">
+                                <a href="" class="ver-empresa">VER EMPRESA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             </div>
         </section>
@@ -286,9 +269,9 @@
                                 <h4 class="mt-4 nombre">Nombre del curso</h4>
                                 <h4 class="pb-2 nombre-naranja">DePC</h4>
                                 <h6 class="pb-2">FEB 2016 - PRESENTE</h6>
-                                <li><span>ipsum dolor sit amet, consectetuer elit.</span></li>
-                                <li><span>Sed diam nonummy nibh euismod ut laoreet.</span></li>
-                                <li><span>Dolore magna aliquam erat volutpat.</span></li>
+                                <li><span class="datos">ipsum dolor sit amet, consectetuer elit.</span></li>
+                                <li><span class="datos">Sed diam nonummy nibh euismod ut laoreet.</span></li>
+                                <li><span class="datos">Dolore magna aliquam erat volutpat.</span></li>
                                 <div class="text-right my-3 px-2">
                                     <a href="" class="ver-empresa-naranja">VER EMPRESA</a>
                                 </div>
@@ -304,9 +287,9 @@
                                 <h4 class="mt-4 nombre">Nombre del curso</h4>
                                 <h4 class="pb-2 nombre-naranja">DePC</h4>
                                 <h6 class="pb-2">FEB 2016 - PRESENTE</h6>
-                                <li><span>ipsum dolor sit amet, consectetuer elit.</span></li>
-                                <li><span>Sed diam nonummy nibh euismod ut laoreet.</span></li>
-                                <li><span>Dolore magna aliquam erat volutpat.</span></li>
+                                <li><span class="datos">ipsum dolor sit amet, consectetuer elit.</span></li>
+                                <li><span class="datos">Sed diam nonummy nibh euismod ut laoreet.</span></li>
+                                <li><span class="datos">Dolore magna aliquam erat volutpat.</span></li>
                                 <div class="text-right my-3 px-2">
                                     <a href="" class="ver-empresa-naranja">VER EMPRESA</a>
                                 </div>
