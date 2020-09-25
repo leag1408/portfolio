@@ -52,7 +52,7 @@ $pg = "contacto";
                                 <textarea name="txtMensaje" id="txtMensaje" class="form-control shadow"></textarea>
                             </div>
                         </form>
-                        <div class="text-right">
+                        <div class="text-right pb-2">
                             <button type="submit" class="btn shadow">ENVIAR</button>
                         </div>
                     </div>
@@ -63,18 +63,18 @@ $pg = "contacto";
 
         <footer>
             <div class="container">
-                <div class="row row mt-5">
-                    <div class="col-3">
+                <div class="row mt-5">
+                    <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
                         <a href="https://github.com/" target="_blank" title="Github"><i class="fab fa-github mr-1"></i></a>
                         <a href="https://www.linkedin.com/in/leagimenez44/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
                         Sponsor <a href="htpps://depcsuite.com" target="_blank" title="DEPCSUITE">DePc Suite </a>
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
                         <a href="mailto:info@depcsuite.com">info@depcsuite.com</a>
                     </div>
-                    <div class="col-3 text-right">
+                    <div class="col-sm-3 col-12 text-right">
                         <a href="https://api.whatsapp.com/send?phone=541168902210" target="_blank" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
 
                     </div>

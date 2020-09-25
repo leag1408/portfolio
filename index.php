@@ -30,7 +30,7 @@ $pg = "inicio";
     <main>
         <div class="container">
             <div class="row justify-content-center inicio">
-                <div class="col-8 texto text-center">
+                <div class="col-12 col-sm-8 texto text-center">
                     <p class="my-3 mx-2"> Hola mi nombre es Rosario, soy desarrolladora full stack. | <i class="fas fa-search"></i></p>
 
                 </div>

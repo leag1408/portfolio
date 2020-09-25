@@ -119,7 +119,7 @@
                     <a href="https://www.linkedin.com/in/leagimenez44/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
-                    Sponsor <a href="htpps://depcsuite.com" target="_blank" title="DEPCSUITE">DePc Suite </a>
+                    <a>Sponsor </a><a href="htpps://depcsuite.com" target="_blank" title="DEPCSUITE">DePc Suite </a>
                 </div>
                 <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
                     <a href="mailto:info@depcsuite.com">info@depcsuite.com</a>
